@@ -48,17 +48,20 @@
             <form action="">
                 <fieldset>
                     <legend>Acceder</legend>
-                    <div>
-                        <label for="usuario">Nombre de usuario o corre electrónico <span>*</span></label>
-                        <input type="text" placeholder="Tu nombre" id="usuario">
-                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre o correo electronico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre o email">
+                      </div>
+                      <label for="inputPassword5" class="form-label">Contraseña</label>
+        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Ingrese su contraseña">
+       <div id="passwordHelpBlock" class="form-text mb-3">
+          </div>
 
-                    <div>
-                        <label for="contrasena">Contraseña <span>*</span></label>
-                        <input type="password" placeholder="" id="contrasena">
-                    </div>
-
-                    <input class="boton" type="submit" value="Acceder">
+                   
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-dark" type="button">Acceder</button>
+                        
+                      </div>
                 </fieldset>
             </form>
         </section>

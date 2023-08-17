@@ -49,20 +49,23 @@
                 <fieldset>
                     <legend>Contactanos</legend>
                     <div>
-                        <label for="nombre">Nombre <span>*</span></label>
-                        <input type="text" placeholder="Tu email" id="nombre">
-                    </div>
-                    <div>
-                        <label for="corre">Correo<span>*</span></label>
-                        <input type="email" placeholder="Tu email" id="correo">
-                    </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre">
+                          </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba un mensaje..."></textarea>
+                          </div>
 
-                    <div>
-                        <label for="mensaje">Mensaje<span>*</span></label>
-                        <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
-                    </div>
-
-                    <input class="boton" type="submit" value="Enviar">
+    
+                    <div class="d-grid gap-2 ">
+                        <button class="btn btn-dark" type="button">Enviar</button>
+                      </div>
                 </fieldset>
             </form>
         </section>
